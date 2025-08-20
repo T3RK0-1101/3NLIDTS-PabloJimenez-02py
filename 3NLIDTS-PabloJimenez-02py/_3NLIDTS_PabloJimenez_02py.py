@@ -1,8 +1,9 @@
 from tkinter import*
 import tkinter as sapo # normalmete es ttk en libros
 
+# componentes
 ventana = Tk()
-ventana.title("Ingreso de datos")
+ventana.title("Ingreso de nombres")
 ventana.geometry("520x480")
 
 boton = sapo.Button(text="Aceptar")
